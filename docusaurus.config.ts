@@ -100,8 +100,21 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: "Socials",
+          items: [
+            {
+              label: "X",
+              href: "https://x.com/ugurkocde",
+            },
+            {
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/in/ugurkocde/",
+            },
+          ],
+        },
       ],
-      copyright: `Made by Ugur with <3.`,
+      copyright: `Made by Ugur with ♥️`,
     },
     prism: {
       theme: prismThemes.github,
