@@ -14,7 +14,7 @@ type ErrorCategory = {
 const ErrorCategories: ErrorCategory[] = [
   {
     title: "Device Enrollment Errors",
-    icon: "📱",
+    icon: "🖥️",
     description: (
       <>
         Common error codes encountered during device enrollment process in
@@ -25,7 +25,7 @@ const ErrorCategories: ErrorCategory[] = [
   },
   {
     title: "Application Errors",
-    icon: "🔧",
+    icon: "⚙️",
     description: (
       <>
         Troubleshoot application installation, deployment, and configuration
@@ -36,7 +36,7 @@ const ErrorCategories: ErrorCategory[] = [
   },
   {
     title: "Policy & Compliance Errors",
-    icon: "📋",
+    icon: "🔒",
     description: (
       <>
         Error codes related to policy assignments, compliance issues, and

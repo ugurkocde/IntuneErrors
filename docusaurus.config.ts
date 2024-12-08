@@ -78,8 +78,12 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Overview",
-              to: "/docs/overview",
+              label: "Applications",
+              to: "/docs/Applications/overview",
+            },
+            {
+              label: "Enrollment",
+              to: "/docs/Enrollment/overview",
             },
           ],
         },
@@ -87,30 +91,17 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Contribute",
+              href: "https://github.com/ugurkocde/IntuneErrors",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Feedback",
+              href: "https://github.com/ugurkocde/IntuneErrors/issues",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Made by Ugur with <3.`,
     },
     prism: {
       theme: prismThemes.github,
