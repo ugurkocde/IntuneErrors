@@ -62,7 +62,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Docs",
+          label: "Browse all Error Codes",
         },
         {
           href: "https://github.com/ugurkocde/IntuneErrors",
@@ -75,7 +75,7 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Categories",
           items: [
             {
               label: "Applications",

@@ -8,7 +8,7 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(135deg, var(--ifm-color-primary-darkest) 0%, var(--ifm-color-primary) 100%);
-  min-height: 30vh;
+  min-height: 20vh;
   display: flex;
   align-items: center;
 }
@@ -103,13 +103,22 @@
   justify-content: center;
 }
 
+.heroImage {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  animation: float 6s ease-in-out infinite;
+}
+
 .gradientOrb {
   width: 400px;
   height: 400px;
   background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
   border-radius: 50%;
   position: absolute;
-  animation: float 6s ease-in-out infinite;
+  z-index: 0;
 }
 
 @keyframes float {
@@ -144,5 +153,9 @@
   .gradientOrb {
     width: 200px;
     height: 200px;
+  }
+
+  .heroImage {
+    max-width: 300px;
   }
 }

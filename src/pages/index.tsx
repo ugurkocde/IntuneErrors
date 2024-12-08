@@ -37,7 +37,11 @@ function HomepageHeader() {
           </div>
         </div>
         <div className={styles.heroVisual}>
-          {/* You can add an illustration or visual element here */}
+          <img
+            src="img/Laptop.png"
+            alt="Laptop showing Intune error interface"
+            className={styles.heroImage}
+          />
           <div className={styles.gradientOrb}></div>
         </div>
       </div>
