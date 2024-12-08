@@ -1,41 +1,19 @@
-# Website
+# Intune Error Code Reference
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A comprehensive reference guide for Microsoft Intune error codes and troubleshooting steps.
 
-### Installation
+## Features
 
-```
-$ yarn
-```
+- 📱 Detailed error code documentation
+- 🔍 Step-by-step troubleshooting guides
+- 💡 Best practices and tips
+- 🔗 Links to official documentation
+- 🌐 Multi-language support
 
-### Local Development
+## Contributing
 
-```
-$ yarn start
-```
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## License
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
