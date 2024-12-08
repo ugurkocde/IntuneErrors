@@ -43,7 +43,7 @@ const ErrorCategories: ErrorCategory[] = [
         configuration profiles in Intune.
       </>
     ),
-    link: "/docs/Overview",
+    link: "/docs/Policies/Overview",
   },
 ];
 
