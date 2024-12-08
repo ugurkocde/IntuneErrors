@@ -54,8 +54,8 @@ const config: Config = {
     navbar: {
       title: "Intune Errors",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Intune Errors",
+        src: "img/logo.png",
       },
       items: [
         {
